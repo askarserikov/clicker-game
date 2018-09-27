@@ -1,0 +1,43 @@
+.mainPane {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.gamePane {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  padding: 20px;
+}
+.rankingPane {
+  width: 35%;
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .mainPane {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainPane {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainPane {
+    width: 100%;
+  }
+  .gamePane {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .rankingPane {
+    width: 100%;
+  }
+}
